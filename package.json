@@ -1,0 +1,30 @@
+{
+  "name": "dget-lit",
+  "description": "Safely get a value from a nested object via a dot-notated path",
+  "version": "0.0.0",
+  "author": "Joel Voß <mail@joelvoss.com>",
+  "main": "dist/cjs/index.cjs.js",
+  "module": "dist/esm/index.es.js",
+  "typings": "dist/types/index.d.ts",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "./Taskfile.sh test",
+    "prepublish": "./Taskfile.sh build"
+  },
+  "dependencies": {
+    "@babel/runtime": "7.10.3"
+  },
+  "devDependencies": {
+    "@types/jest": "26.0.3",
+    "jvdx": "2.0.1",
+    "typescript": "3.9.5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "jvdx pre-commit"
+    }
+  }
+}
