@@ -1,7 +1,7 @@
 {
   "name": "dget-lit",
   "description": "Safely get a value from a nested object via a dot-notated path",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Joel Voß <mail@joelvoss.com>",
   "main": "dist/cjs/index.cjs.js",
   "module": "dist/esm/index.es.js",
