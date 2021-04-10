@@ -1,7 +1,7 @@
 {
   "name": "dget-lit",
   "description": "Safely get a value from a nested object via a dot-notated path",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "author": "Joel Voß <mail@joelvoss.com>",
   "license": "MIT",
   "homepage": "https://github.com/joelvoss/dget-lit",
