@@ -12,10 +12,14 @@
     "type": "git",
     "url": "git+https://github.com/joelvoss/dget-lit.git"
   },
+  "type": "module",
   "source": "src/index.ts",
-  "main": "dist/dget-lit.js",
-  "module": "dist/dget-lit.es.js",
-  "types": "dist/index.d.ts",
+  "main": "dist/dget-lit.cjs",
+  "module": "dist/dget-lit.module.js",
+  "exports": {
+    "require": "./dist/dget-lit.cjs",
+    "import": "./dist/dget-lit.modern.js"
+  },
   "files": [
     "dist",
     "LICENSE"
