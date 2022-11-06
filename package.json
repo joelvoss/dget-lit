@@ -17,9 +17,11 @@
   "main": "dist/dget-lit.cjs",
   "module": "dist/dget-lit.module.js",
   "exports": {
+    "types": "./dist/index.d.ts",
     "require": "./dist/dget-lit.cjs",
     "import": "./dist/dget-lit.modern.js"
   },
+  "types": "dist/index.d.ts",
   "files": [
     "dist",
     "LICENSE"
