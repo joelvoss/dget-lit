@@ -4,11 +4,6 @@ Safely get a value from a nested object via a dot-notated path.
 In addition you have the ability to provide a fallback value to be returned
 if the full key path does not exists or the value is undefined.
 
-## Requirements
-
-- [Node v10+](node+npm)
-- [npm v6+](node+npm)
-
 ## Install
 
 ```bash
