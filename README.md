@@ -69,6 +69,4 @@ $ ./Taskfile.sh test -w
 
 ---
 
-This project was bootstrapped with [@jvdx/core](https://github.com/joelvoss/jvdx-core).
-
 [node+npm]: https://nodejs.org

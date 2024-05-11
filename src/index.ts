@@ -1,6 +1,9 @@
-// dget safely gets a value from a nested object via a dot-notated path.
-// In addition you have the ability to provide a fallback value to be returned
-// if the full key path does not exists or the value is undefined.
+/**
+ * dget safely gets a value from a nested object via a dot-notated path.
+ * In addition you have the ability to provide a fallback value to be returned
+ * if the full key path does not exists or the value is undefined.
+ */
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function dget<ObjectType extends { [key: string]: any }, DefaultType>(
 	obj: ObjectType,
 	key: string | string[],
