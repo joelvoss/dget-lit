@@ -1,4 +1,5 @@
 import { describe, expect, test } from 'vitest';
+
 import { dget } from '../src/index';
 
 const obj = {
